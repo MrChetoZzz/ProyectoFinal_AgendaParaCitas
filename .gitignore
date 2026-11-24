@@ -1,0 +1,23 @@
+# Dependencias y build
+node_modules/
+dist/
+build/
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Variables de entorno y secretos (nunca se suben al repositorio)
+.env
+.env.local
+.env.*.local
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+
+# Sistema
+.DS_Store
+Thumbs.db
