@@ -1,6 +1,6 @@
 # ProyectoFinal_AgendaParaCitas
 
-Aplicación web para gestionar la agenda de citas de un consultorio (médico o dental): registrar citas, consultarlas y llevar el control de su estado.
+Aplicación web para gestionar la agenda de citas de un consultorio: registrar citas, consultarlas y llevar el control de su estado.
 
 ## Problema y solución
 
@@ -22,4 +22,4 @@ Flujo de integración:
 
 ## Seguridad
 
-No se guardan credenciales ni cadenas de conexión en este repositorio. Las credenciales se suministran por variables de entorno y los archivos de secretos (`.env`, `appsettings.*.json` con secretos) están excluidos en `.gitignore`.
+No se guardan credenciales ni cadenas de conexión en este repositorio. Las credenciales se suministran por variables de entorno.
